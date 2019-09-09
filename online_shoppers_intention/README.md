@@ -56,6 +56,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
+<h2>Data Description</h2>
 <p><medium>
 <h3>Source</h3>
 C. Okan Sakar Department of Computer Engineering, Faculty of Engineering and Natural Sciences, Bahcesehir University, 34349 Besiktas, Istanbul, Turkey
@@ -72,4 +73,25 @@ The dataset consists of 10 numerical and 8 categorical attributes. The 'Revenue'
 
 <h3>Relevant Papers:</h3>
 Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018). [Web Link]
+
+<h3>Column Description:</h3>
+1.  Administrative: Administrative Value
+2.  Administrative_Duration: Duration in Administrative Page
+3.  Informational: Informational Value
+4.  Informational_Duration: Duration in Informational Page
+5.  ProductRelated: Product Related Value
+6.  ProductRelated_Duration: Duration in Product Related Page
+7.  BounceRates: Bounce Rates of a web page
+8.  ExitRates: Exit rate of a web page
+9.  PageValues: Page values of each web page
+10. SpecialDay: Special days like valentine etc
+11. Month: Month of the year
+12. OperatingSystems: Operating system used
+13. Browser: Browser used
+14. Region: Region of the user
+15. TrafficType: Traffic Type
+16. VisitorType: Types of Visitor
+17. Weekend: Weekend or not
+18. Revenue: Revenue will be generated or not
+
 </medium></p>
