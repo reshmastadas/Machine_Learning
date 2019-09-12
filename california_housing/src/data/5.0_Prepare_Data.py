@@ -4,9 +4,9 @@ import sys
 from sklearn.impute import SimpleImputer 
 import pandas as pd
 
-DATA_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','interim'))
-PROCESSED_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','processed'))
-PACKAGE_PATH =  os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,os.path.pardir,
+DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','interim'))
+PROCESSED_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','processed'))
+PACKAGE_PATH =  os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,os.path.pardir,
                                             'Common_Functions','data_preperation'))
 
 train_df = pd.read_csv(os.path.join(DATA_PATH,'train_df.csv'))

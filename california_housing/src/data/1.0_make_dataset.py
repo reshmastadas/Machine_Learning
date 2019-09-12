@@ -5,13 +5,13 @@ from six.moves import urllib
 from sklearn.base import BaseEstimator, TransformerMixin
 
 print('Reading data and storing in raw folder...')
-PACKAGE_PATH =  os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,os.path.pardir,
+PACKAGE_PATH =  os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,os.path.pardir,
                                             'Common_Functions','read_data'))
 DOWNLOAD_ROOT = 'https://raw.githubusercontent.com/ageron/handson-ml/master/'
 HOUSEING_PATH = 'datasets/housing'
 HOUSING_URL = DOWNLOAD_ROOT + HOUSEING_PATH + '/housing.tgz'
-HOUSEING_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','raw'))
-
+HOUSEING_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','raw'))
+print(HOUSEING_PATH)
 sys.path.insert(1, PACKAGE_PATH)
 from fetch_data_from_url import FetchDataFromURLTGZ
 fetch_data = FetchDataFromURLTGZ(HOUSING_URL,HOUSEING_PATH,'/housing.tgz')

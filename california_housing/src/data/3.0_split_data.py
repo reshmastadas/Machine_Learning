@@ -7,11 +7,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.base import BaseEstimator, TransformerMixin
 
-PACKAGE_PATH =  os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,os.path.pardir,
+PACKAGE_PATH =  os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,os.path.pardir,
                                             'Common_Functions','split_data'))
-DATA_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','raw'))
+DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','raw'))
 
-INTERIM_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','interim'))
+INTERIM_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','interim'))
 
 sys.path.insert(1, PACKAGE_PATH)
 
