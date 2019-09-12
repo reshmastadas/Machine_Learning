@@ -9,9 +9,10 @@ import pandas as pd
 import os
 import sys
 
-DATA_PATH = os.path.abspath(os.path.join(os.getcwd(),os.path.pardir,os.path.pardir,'data','processed'))
-PACKAGE_PATH = os.path.join(os.getcwd(),os.path.pardir,'Common_Functions','data_preperation')
+DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'data','processed'))
+PACKAGE_PATH = os.path.join(os.path.dirname(__file__),os.path.pardir,'Common_Functions','data_preperation')
 sys.path.insert(1, PACKAGE_PATH)
+MODEL_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__),os.path.pardir,os.path.pardir,'models'))
 
 x=pd.DataFrame(pd.read_csv(os.path.join(DATA_PATH,'x.csv'))).drop('Unnamed: 0',axis=1)
 y=pd.read_csv(os.path.join(DATA_PATH,'y.csv')).drop('Unnamed: 0',axis=1)
@@ -70,7 +71,7 @@ svm_poly_rmse_scores = np.sqrt(-scores)
 display_scores(svm_poly_rmse_scores)
 
 from sklearn.externals import joblib
-def save_model(model,hpyer_params,cross_val_scores,model_name='model_name',path=os.getcwd()):
+def save_model(model,hpyer_params,cross_val_scores,model_name='model_name',path=os.path.dirname(__file__)):
     data_path = os.path.join(path,model_name)
     if not os.path.isdir(data_path):
         os.mkdir(data_path)
@@ -80,12 +81,12 @@ def save_model(model,hpyer_params,cross_val_scores,model_name='model_name',path=
     cross_val_scores=pd.DataFrame(cross_val_scores)
     cross_val_scores.to_csv(os.path.join(data_path,'cross_val_scores.csv'))
 hyper_params = {'params':[]}
-save_model(lr,hyper_params,lr_rmse_scores,'Linear_Regression',DATA_PATH)
-save_model(dtree,hyper_params,tree_rmse_scores,'Decsion_Tree',DATA_PATH)
-save_model(freg,hyper_params,freg_rmse_scores,'Random_Forest',DATA_PATH)
+save_model(lr,hyper_params,lr_rmse_scores,'Linear_Regression',MODEL_PATH)
+save_model(dtree,hyper_params,tree_rmse_scores,'Decsion_Tree',MODEL_PATH)
+save_model(freg,hyper_params,freg_rmse_scores,'Random_Forest',MODEL_PATH)
 hyper_params = {'kernel':[str('rbf')]}
-save_model(svm,hyper_params,svm_rmse_scores,'SVM_RBF',DATA_PATH)
+save_model(svm,hyper_params,svm_rmse_scores,'SVM_RBF',MODEL_PATH)
 hyper_params = {'kernel':[str('linear')]}
-save_model(svm_linear,hyper_params,svm_linear_rmse_scores,'SVM_Linear',DATA_PATH)
+save_model(svm_linear,hyper_params,svm_linear_rmse_scores,'SVM_Linear',MODEL_PATH)
 hyper_params = {'kernel':[str('poly')]}
-save_model(svm_poly,hyper_params,svm_poly_rmse_scores,'SVM_Poly',DATA_PATH)
+save_model(svm_poly,hyper_params,svm_poly_rmse_scores,'SVM_Poly',MODEL_PATH)
