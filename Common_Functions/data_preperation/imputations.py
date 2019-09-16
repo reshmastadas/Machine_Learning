@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.impute import SimpleImputer 
+from sklearn.impute import SimpleImputer
 from sklearn.base import BaseEstimator, TransformerMixin
 
 class NullImputation(BaseEstimator, TransformerMixin):
@@ -13,9 +13,9 @@ class NullImputation(BaseEstimator, TransformerMixin):
 						'imputation_strategy': [str('median')] # use str() if the list has only one value.
 						}
 						Possible values for imputations strategy are : mean,median,most_frequent,constant
-				const_val: if the imputation strategy is constant, then mention constant value 
+				const_val: if the imputation strategy is constant, then mention constant value
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		self.parameters = parameters
 		self.const_val = const_val
@@ -26,9 +26,9 @@ class NullImputation(BaseEstimator, TransformerMixin):
 			Purpose:
 				Imputes all null columns
 			Parameters:
-				X: dataframe 
+				X: dataframe
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		imputation_strategy = self.parameters['imputation_strategy']
 		df_new = X.copy()
@@ -62,7 +62,7 @@ class NullImputation(BaseEstimator, TransformerMixin):
 			df_new[col] = X[col].fillna(impute_val)
 		(pd.DataFrame(final_imputes)).to_csv('imputes.csv')
 		return df_new
-		
+
 class AllImputation(BaseEstimator, TransformerMixin):
 	def __init__(self, parameters,const_val=None):
 		'''
@@ -74,22 +74,22 @@ class AllImputation(BaseEstimator, TransformerMixin):
 						'imputation_strategy': [str('median')] # use str() if the list has only one value.
 						}
 						Possible values for imputations strategy are : mean,median,most_frequent,constant
-				const_val: if the imputation strategy is constant, then mention constant value 
+				const_val: if the imputation strategy is constant, then mention constant value
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		self.parameters = parameters
 		self.const_val = const_val
 	def fit(self,X,y=None):
-		return self	
+		return self
 	def transform(self,X,y=None):
 		'''
 			Purpose:
 				Imputes all columns
 			Parameters:
-				X: dataframe 
+				X: dataframe
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		imputation_strategy = self.parameters['imputation_strategy']
 		df_new = X.copy()
@@ -135,22 +135,22 @@ class CalculateAllImputation(BaseEstimator, TransformerMixin):
 						'imputation_strategy': [str('median')] # use str() if the list has only one value.
 						}
 						Possible values for imputations strategy are : mean,median,most_frequent,constant
-				const_val: if the imputation strategy is constant, then mention constant value 
+				const_val: if the imputation strategy is constant, then mention constant value
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		self.parameters = parameters
 		self.const_val = const_val
 	def fit(self,X,y=None):
-		return self	
+		return self
 	def transform(self,X,y=None):
 		'''
 			Purpose:
 				Imputes all columns
 			Parameters:
-				X: dataframe 
+				X: dataframe
 			Returns: df,final_imputes
-			Author: Reshma Tadas    
+			Author: Reshma Tadas
 		'''
 		imputation_strategy = self.parameters['imputation_strategy']
 		df_new = X.copy()
