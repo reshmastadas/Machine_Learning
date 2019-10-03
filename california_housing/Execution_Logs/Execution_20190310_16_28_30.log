@@ -1,0 +1,242 @@
+==========================================================
+Executing D:\ml\california_housing\src\data\1.0_make_dataset.py
+Reading data and storing in raw folder...
+D:\ml\california_housing\data\raw
+Data reading is done
+Execution of D:\ml\california_housing\src\data\1.0_make_dataset.py completed
+==========================================================
+Executing D:\ml\california_housing\notebooks\2.0_EDA.py
+Initial EDA
+************************************************************
+Have a look at data....
+------------------------------------------------------------
+Insights:
+each row represents a block group: a block group typically has 600 to 30000 people,
+for simplicity lets call them district
+------------------------------------------------------------ 
+
+Look at the basic info about data...
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20640 entries, 0 to 20639
+Data columns (total 10 columns):
+longitude             20640 non-null float64
+latitude              20640 non-null float64
+housing_median_age    20640 non-null float64
+total_rooms           20640 non-null float64
+total_bedrooms        20433 non-null float64
+population            20640 non-null float64
+households            20640 non-null float64
+median_income         20640 non-null float64
+median_house_value    20640 non-null float64
+ocean_proximity       20640 non-null object
+dtypes: float64(9), object(1)
+memory usage: 1.6+ MB
+None
+Insights:
+There are total 20640 rows
+all columns are of *float64* data type except *ocean_proximity*
+There are null values in *total_bedrooms* column
+------------------------------------------------------------
+Number of unique values in each column:
+
+longitude               844
+latitude                862
+housing_median_age       52
+total_rooms            5926
+total_bedrooms         1923
+population             3888
+households             1815
+median_income         12928
+median_house_value     3842
+ocean_proximity           5
+dtype: int64
+Insights:
+*ocean_proximity* is categorical variable
+------------------------------------------------------------
+Value counts of *ocean_proximity* column:
+
+<1H OCEAN     9136
+INLAND        6551
+NEAR OCEAN    2658
+NEAR BAY      2290
+ISLAND           5
+Name: ocean_proximity, dtype: int64
+------------------------------------------------------------
+Descriptive Statistics of data...:
+
+          longitude         ...          median_house_value
+count  20640.000000         ...                20640.000000
+mean    -119.569704         ...               206855.816909
+std        2.003532         ...               115395.615874
+min     -124.350000         ...                14999.000000
+25%     -121.800000         ...               119600.000000
+50%     -118.490000         ...               179700.000000
+75%     -118.010000         ...               264725.000000
+max     -114.310000         ...               500001.000000
+
+[8 rows x 9 columns]
+Insights:
+Above is the descriptive statistics of data ignoring null values
+------------------------------------------------------------
+Univariate anlysis: Histograms
+Insights:
+The median income attribute does not look like it is expressed in US dollars. Data is scaled and capped at 15 for higher median incomes, and at 0.5 for lower median incomes.
+the housing median age and median house values are also capped.
+Many histograms are tail heavy.
+------------------------------------------------------------
+************************************************************
+Execution of D:\ml\california_housing\notebooks\2.0_EDA.py completed
+==========================================================
+Executing D:\ml\california_housing\src\data\3.0_split_data.py
+Performing stratified train, test, validation split...
+Splitting completed
+Execution of D:\ml\california_housing\src\data\3.0_split_data.py completed
+==========================================================
+Executing D:\ml\california_housing\notebooks\4.0_EDA.py
+EDA of train_df
+************************************************************
+
+Scatter plot: For High level visualization
+Insights:
+Data points look like california. But it is hard to see any  pattern. Lets set alpha to 0.1
+------------------------------------------------------------
+Scatter plot: for data density visualization
+Insights:
+We can clearly see high-density areas like the Bay Area and around Los Angeles and San Diego
+ plus long line of fairly high density in the Central Valley in particular around Sacramento and Fresno
+------------------------------------------------------------
+Scatter plot: for detailed data visualization
+Insights:
+Housing prices are very much realated to the location and to the population density.
+------------------------------------------------------------
+Correlation of columns with target
+median_house_value          1.000000
+median_income               0.692846
+rooms_per_household         0.164805
+total_rooms                 0.143286
+housing_median_age          0.098164
+households                  0.072961
+Unnamed: 0                  0.071694
+total_bedrooms              0.056634
+population                 -0.018110
+population_per_household   -0.021440
+longitude                  -0.043285
+latitude                   -0.145069
+bedrooms_per_room          -0.262351
+Name: median_house_value, dtype: float64
+Insights:
+population, population_per_household, longitude, latitude, bedrooms_per_room has some slight negative correlation.
+------------------------------------------------------------
+scatter matrix of data: To analyze correlation in depth
+------------------------------------------------------------
+Scatter plot between median_house_value and median_income
+Insights:
+horizontal line at 500000 is obvious due to the cap value.
+horizontal lines at 450000, 350000, 280000 are some data querks which can be removed by removing some data points.
+------------------------------------------------------------
+************************************************************
+Execution of D:\ml\california_housing\notebooks\4.0_EDA.py completed
+==========================================================
+Executing D:\ml\california_housing\src\data\5.0_Prepare_Data.py
+Execution of D:\ml\california_housing\src\data\5.0_Prepare_Data completed
+==========================================================
+Executing D:\ml\california_housing\src\models\6.0_train_model.py
+
+RMSE of Linear Regressor with training set is:	 67193.98095693417
+RMSE of Linear Regressor with validation set is:	 69130.42334116553
+
+RMSE of Decision Tree Regressor with training set is:	 0.0
+RMSE of Decision Tree Regressor with validation set is:	 80283.20902658414
+
+RMSE of Random Forest Regressor with training set is:	 22682.393553139063
+RMSE of Random Forest Regressor with validation set is:	 59228.83615729586
+
+RMSE of SVM_rbf with training set is:	 117990.34399416619
+RMSE of SVM_rbf with validation set is:	 119274.25577473758
+
+RMSE of SVM_linear with training set is:	 112937.33984086056
+RMSE of SVM_linear with validation set is:	 114323.31397894397
+
+RMSE of SVM_poly with training set is:	 118039.19399814848
+RMSE of SVM_poly with validation set is:	 119482.12427149132
+scores:
+ [72039.71890183 74481.76120614 74753.27787822 75916.89340015
+ 70482.19219841 73517.43824704 74104.99971914 69869.70434397
+ 76425.34354829 76434.26590803]
+Mean Scores:
+ 73802.55953511976
+Standard Deviation:
+ 2222.904021793542
+scores:
+ [62633.0946365  70357.72428848 66389.21458807 67348.89598472
+ 68483.81998283 67375.1177391  67422.74185038 66058.93099303
+ 68744.08829943 71827.05068148]
+Mean Scores:
+ 67664.06790440134
+Standard Deviation:
+ 2370.1923792710163
+scores:
+ [52168.18975175 54055.19647142 52031.84451941 55836.41811652
+ 53502.9562474  53878.73572413 52574.06824014 53593.11638713
+ 53422.32151251 58497.64966082]
+Mean Scores:
+ 53956.04966312214
+Standard Deviation:
+ 1833.2617022830198
+scores:
+ [112510.5990611  121711.7216214  119084.41991973 118212.46575759
+ 117641.07073631 121451.76085277 114514.98072021 118982.41352617
+ 115442.98167975 120322.04235151]
+Mean Scores:
+ 117987.44562265347
+Standard Deviation:
+ 2867.3007252387783
+scores:
+ [108034.88855642 117094.23144563 114453.05947156 113788.98604664
+ 112927.41503621 116808.29948198 110226.7254927  114007.51020226
+ 110946.85270651 115775.74581483]
+Mean Scores:
+ 113406.37142547146
+Standard Deviation:
+ 2786.257107518871
+scores:
+ [112501.06373873 130736.77162337 119202.56851682 118213.37412349
+ 117620.2465954  121636.25613089 114688.39752232 119037.19868166
+ 115443.89746189 123186.07280074]
+Mean Scores:
+ 119226.58471953003
+Standard Deviation:
+ 4875.944266054243
+Execution of D:\ml\california_housing\src\models\6.0_train_model.py completed
+==========================================================
+Executing D:\ml\california_housing\notebooks\7.0_Explore_base_model_results.py
+Execution of D:\ml\california_housing\notebooks\7.0_Explore_base_model_results.py completed
+==========================================================
+Executing D:\ml\california_housing\src\models\8.0_predict_model.py
+The final model gives following score while doing cross validation:
+
+64474.23059730734 {'max_features': 2, 'n_estimators': 3}
+56457.7765814764 {'max_features': 2, 'n_estimators': 10}
+53936.29707468675 {'max_features': 2, 'n_estimators': 30}
+63509.91938089147 {'max_features': 3, 'n_estimators': 3}
+54465.90929233155 {'max_features': 3, 'n_estimators': 10}
+52117.58092811003 {'max_features': 3, 'n_estimators': 30}
+61571.56787154735 {'max_features': 4, 'n_estimators': 3}
+53988.49536405872 {'max_features': 4, 'n_estimators': 10}
+51831.30099437584 {'max_features': 4, 'n_estimators': 30}
+62976.51709600484 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+55199.06840446599 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+61860.341875943006 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+53236.52996418887 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+59794.028249181545 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+52844.992836126745 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+----------------------------------------
+Mean squared error on validation set:
+
+53520.94660746462
+----------------------------------------
+Mean squared error on test set:
+
+56354.466174406545
+Execution of D:\ml\california_housing\src\models\8.0_predict_model.py completed
+==========================================================
