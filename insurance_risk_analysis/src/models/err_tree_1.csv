@@ -1,0 +1,134 @@
+,index,Claim_x,pred_y,0_proba,1_proba,Unnamed: 0,ID,Agency,Agency Type,Distribution Channel,Product Name,Claim_y,Duration,Destination,Net Sales,Commision (in value),Gender,Age
+0,38,1,0,1.0,0.0,42527,31691,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,12,THAILAND,79.2,47.52,,60
+1,46,1,0,1.0,0.0,39159,2543,C2B,Airlines,Online,Annual Silver Plan,1,368,SINGAPORE,389.0,97.25,F,41
+2,70,1,0,1.0,0.0,29007,43504,C2B,Airlines,Online,Silver Plan,1,90,SINGAPORE,507.0,126.75,M,32
+3,114,1,0,1.0,0.0,50528,46959,C2B,Airlines,Online,Annual Gold Plan,1,416,SINGAPORE,287.4,71.85,M,27
+4,262,1,0,1.0,0.0,30769,28154,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,22,UNITED STATES,112.0,0.0,,42
+5,330,1,0,1.0,0.0,30591,40073,C2B,Airlines,Online,Silver Plan,1,29,SINGAPORE,48.5,12.13,F,28
+6,437,1,0,1.0,0.0,39488,29565,EPX,Travel Agency,Online,Cancellation Plan,1,21,THAILAND,38.0,0.0,,36
+7,490,1,0,1.0,0.0,23266,55375,C2B,Airlines,Online,Bronze Plan,1,9,SINGAPORE,20.0,5.0,M,21
+8,496,1,0,1.0,0.0,13812,52593,C2B,Airlines,Online,Bronze Plan,1,10,SINGAPORE,21.0,5.25,M,38
+9,730,1,0,1.0,0.0,17829,55686,LWC,Travel Agency,Online,Annual Travel Protect Gold,1,370,CHINA,204.6,132.99,M,39
+10,740,1,0,1.0,0.0,10831,2762,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,55,FINLAND,100.0,0.0,,36
+11,761,1,0,1.0,0.0,20314,38784,C2B,Airlines,Online,Bronze Plan,1,18,SINGAPORE,34.5,8.63,F,30
+12,827,1,0,1.0,0.0,28507,42186,C2B,Airlines,Online,Bronze Plan,1,11,SINGAPORE,27.0,6.75,F,68
+13,839,1,0,1.0,0.0,38723,5826,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,46,UNITED STATES,112.0,0.0,,50
+14,877,1,0,1.0,0.0,22497,50373,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,64,AUSTRALIA,178.2,106.92,,53
+15,1047,1,0,1.0,0.0,11153,57335,C2B,Airlines,Online,Silver Plan,1,14,SINGAPORE,47.5,11.88,M,22
+16,1255,1,0,1.0,0.0,10998,24153,C2B,Airlines,Online,Bronze Plan,1,31,SINGAPORE,22.1,5.53,F,24
+17,1368,1,0,1.0,0.0,1780,13784,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,79,ITALY,52.0,0.0,,36
+18,1445,1,0,1.0,0.0,40606,50844,EPX,Travel Agency,Online,Cancellation Plan,1,47,THAILAND,20.0,0.0,,36
+19,1457,1,0,1.0,0.0,18549,45331,C2B,Airlines,Online,Silver Plan,1,24,SINGAPORE,144.0,36.0,F,42
+20,1833,1,0,1.0,0.0,17514,37646,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,20,"KOREA, REPUBLIC OF",46.0,0.0,,36
+21,1847,1,0,1.0,0.0,748,51854,C2B,Airlines,Online,Silver Plan,1,20,SINGAPORE,72.0,18.0,F,29
+22,2148,1,0,1.0,0.0,35492,28927,C2B,Airlines,Online,Bronze Plan,1,66,SINGAPORE,62.0,15.5,M,25
+23,2160,1,0,1.0,0.0,36076,40210,JZI,Airlines,Online,Value Plan,1,8,CHINA,45.0,15.75,M,45
+24,2315,1,0,1.0,0.0,32482,43000,JZI,Airlines,Online,Value Plan,1,105,"KOREA, REPUBLIC OF",45.0,15.75,F,19
+25,2344,1,0,1.0,0.0,37669,2212,C2B,Airlines,Online,Silver Plan,1,10,SINGAPORE,50.0,12.5,F,50
+26,2430,1,0,1.0,0.0,34041,28089,C2B,Airlines,Online,Bronze Plan,1,22,SINGAPORE,40.5,10.13,F,30
+27,2434,1,0,1.0,0.0,20758,29428,C2B,Airlines,Online,Silver Plan,1,68,SINGAPORE,127.0,31.75,M,34
+28,2621,1,0,1.0,0.0,31969,57457,EPX,Travel Agency,Online,Cancellation Plan,1,6,JAPAN,17.0,0.0,,36
+29,2625,1,0,1.0,0.0,2590,18559,C2B,Airlines,Online,Bronze Plan,1,10,SINGAPORE,38.35,9.59,F,26
+30,2702,1,0,1.0,0.0,41428,43724,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,95,PHILIPPINES,23.0,0.0,,36
+31,2816,1,0,1.0,0.0,38863,54291,EPX,Travel Agency,Online,Cancellation Plan,1,8,INDONESIA,12.0,0.0,,45
+32,2824,1,0,1.0,0.0,50556,42194,C2B,Airlines,Online,Bronze Plan,1,43,SINGAPORE,33.5,8.38,M,29
+33,2843,1,0,1.0,0.0,2530,46073,C2B,Airlines,Online,Silver Plan,1,91,SINGAPORE,56.5,14.13,F,18
+34,2848,1,0,1.0,0.0,23982,49606,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,74,ITALY,49.5,29.7,,26
+35,3105,1,0,1.0,0.0,6563,52167,C2B,Airlines,Online,Bronze Plan,1,5,SINGAPORE,21.0,5.25,F,32
+36,3132,1,0,1.0,0.0,27956,43891,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,85,ICELAND,59.4,35.64,,61
+37,3186,1,0,1.0,0.0,44335,38305,C2B,Airlines,Online,Silver Plan,1,52,SINGAPORE,63.5,15.88,F,35
+38,3313,1,0,1.0,0.0,47550,33437,C2B,Airlines,Online,Silver Plan,1,18,SINGAPORE,24.5,6.13,M,30
+39,3392,1,0,1.0,0.0,48437,61036,C2B,Airlines,Online,Bronze Plan,1,3,SINGAPORE,19.2,4.8,M,24
+40,3454,1,0,1.0,0.0,46272,6605,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,66,THAILAND,22.0,0.0,,36
+41,3497,1,0,1.0,0.0,21283,40128,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,129,HONG KONG,48.0,0.0,,36
+42,3515,1,0,1.0,0.0,21143,4959,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,51,GERMANY,79.2,47.52,,58
+43,3543,1,0,1.0,0.0,9359,29432,C2B,Airlines,Online,Silver Plan,1,40,SINGAPORE,63.5,15.88,M,27
+44,3605,1,0,1.0,0.0,15636,34205,C2B,Airlines,Online,Gold Plan,1,14,SINGAPORE,76.5,19.13,F,51
+45,3796,1,0,1.0,0.0,34075,38938,EPX,Travel Agency,Online,1 way Comprehensive Plan,1,3,AUSTRALIA,50.0,0.0,,36
+46,4071,1,0,1.0,0.0,17937,51115,JZI,Airlines,Online,Basic Plan,1,31,INDONESIA,18.0,6.3,F,44
+47,4279,1,0,1.0,0.0,25361,25365,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,36,HONG KONG,68.0,0.0,,36
+48,4314,1,0,1.0,0.0,33887,4071,C2B,Airlines,Online,Annual Gold Plan,1,386,SINGAPORE,449.25,112.31,F,36
+49,4330,1,0,1.0,0.0,8383,10215,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,32,AUSTRALIA,178.2,106.92,,36
+50,4387,1,0,1.0,0.0,38566,24365,JZI,Airlines,Online,Value Plan,1,46,UNITED STATES,138.0,48.3,M,56
+51,4695,1,0,1.0,0.0,20254,45729,C2B,Airlines,Online,Annual Silver Plan,1,401,SINGAPORE,216.0,54.0,F,27
+52,4783,1,0,1.0,0.0,46719,5603,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,39,AUSTRALIA,69.3,41.58,,37
+53,4825,1,0,1.0,0.0,15716,53017,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,66,PHILIPPINES,50.0,0.0,,36
+54,4834,1,0,1.0,0.0,30798,14779,JZI,Airlines,Online,Basic Plan,1,14,THAILAND,18.0,6.3,F,44
+55,4912,1,0,1.0,0.0,28753,23522,JZI,Airlines,Online,Basic Plan,1,55,CHINA,26.0,9.1,F,37
+56,4969,1,0,1.0,0.0,17824,59017,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,47,"KOREA, REPUBLIC OF",42.0,0.0,,23
+57,4982,1,0,1.0,0.0,43459,23760,JZI,Airlines,Online,Basic Plan,1,44,THAILAND,18.0,6.3,M,67
+58,5040,1,0,1.0,0.0,8682,19012,C2B,Airlines,Online,Silver Plan,1,18,SINGAPORE,93.6,23.4,M,65
+59,5202,1,0,1.0,0.0,21079,8152,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,48,INDIA,21.0,0.0,,36
+60,5219,1,0,1.0,0.0,34093,51143,C2B,Airlines,Online,Bronze Plan,1,2,SINGAPORE,27.0,6.75,F,37
+61,5341,1,0,1.0,0.0,38833,51654,C2B,Airlines,Online,Silver Plan,1,27,SINGAPORE,18.5,4.63,F,28
+62,5402,1,0,1.0,0.0,44711,27060,KML,Travel Agency,Online,Value Plan,1,18,INDONESIA,28.0,10.64,F,48
+63,5419,1,0,1.0,0.0,39700,36630,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,41,UNITED KINGDOM,118.8,71.28,,31
+64,5472,1,0,1.0,0.0,16573,54759,C2B,Airlines,Online,Silver Plan,1,27,SINGAPORE,47.5,11.88,F,28
+65,5674,1,0,1.0,0.0,13808,15795,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,90,JAPAN,46.0,0.0,,36
+66,5766,1,0,1.0,0.0,23171,19243,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,74,NETHERLANDS,112.0,0.0,,36
+67,5816,1,0,1.0,0.0,14249,60720,JWT,Airlines,Online,Value Plan,1,25,INDIA,78.0,31.2,F,118
+68,5920,1,0,1.0,0.0,456,57175,C2B,Airlines,Online,Gold Plan,1,36,SINGAPORE,105.6,26.4,M,32
+69,6171,1,0,1.0,0.0,38819,47255,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,86,AUSTRALIA,108.9,65.34,,31
+70,6231,1,0,1.0,0.0,28925,47586,C2B,Airlines,Online,Silver Plan,1,93,SINGAPORE,253.5,63.38,F,46
+71,6343,1,0,1.0,0.0,46754,10951,C2B,Airlines,Online,Annual Silver Plan,1,382,SINGAPORE,291.75,72.94,F,29
+72,6431,1,0,1.0,0.0,43522,18431,EPX,Travel Agency,Online,Cancellation Plan,1,266,MALAYSIA,10.0,0.0,,36
+73,6763,1,0,1.0,0.0,12974,25425,EPX,Travel Agency,Online,1 way Comprehensive Plan,1,3,VIET NAM,20.0,0.0,,39
+74,6792,1,0,1.0,0.0,19908,38961,C2B,Airlines,Online,Bronze Plan,1,13,SINGAPORE,47.0,11.75,M,38
+75,7059,1,0,1.0,0.0,38,53097,KML,Travel Agency,Online,Premier Plan,1,21,INDONESIA,38.0,14.44,F,48
+76,7068,1,0,1.0,0.0,17894,61459,C2B,Airlines,Online,Silver Plan,1,33,SINGAPORE,112.5,28.13,F,74
+77,7226,1,0,1.0,0.0,39131,46078,C2B,Airlines,Online,Silver Plan,1,29,SINGAPORE,27.0,6.75,F,33
+78,7235,1,0,1.0,0.0,17690,57157,C2B,Airlines,Online,Bronze Plan,1,13,SINGAPORE,40.0,10.0,F,27
+79,7302,1,0,1.0,0.0,22657,55915,C2B,Airlines,Online,Silver Plan,1,19,SINGAPORE,22.5,5.63,M,22
+80,7315,1,0,1.0,0.0,50185,40653,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,12,"KOREA, REPUBLIC OF",40.0,0.0,,36
+81,7390,1,0,1.0,0.0,13484,32837,C2B,Airlines,Online,Bronze Plan,1,12,SINGAPORE,47.0,11.75,M,34
+82,7615,1,0,1.0,0.0,40547,54190,C2B,Airlines,Online,Silver Plan,1,11,SINGAPORE,29.5,7.38,M,30
+83,7637,1,0,1.0,0.0,26717,22669,JZI,Airlines,Online,Basic Plan,1,3,HONG KONG,-22.0,7.7,M,59
+84,7855,1,0,1.0,0.0,11923,45857,C2B,Airlines,Online,Silver Plan,1,29,SINGAPORE,81.5,20.38,M,28
+85,7970,1,0,1.0,0.0,34312,39005,C2B,Airlines,Online,Annual Silver Plan,1,413,SINGAPORE,252.85,63.21,F,31
+86,8201,1,0,1.0,0.0,14567,20344,C2B,Airlines,Online,Silver Plan,1,24,SINGAPORE,82.55,20.64,F,32
+87,8218,1,0,1.0,0.0,4441,14429,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,125,UNITED STATES,112.0,0.0,,28
+88,8338,1,0,1.0,0.0,35708,44930,C2B,Airlines,Online,Bronze Plan,1,26,SINGAPORE,20.0,5.0,F,27
+89,8508,1,0,1.0,0.0,16010,62527,LWC,Travel Agency,Online,Annual Travel Protect Silver,1,367,UNITED STATES,229.8,149.37,M,28
+90,8557,1,0,1.0,0.0,11902,61195,LWC,Travel Agency,Online,Single Trip Travel Protect Platinum,1,17,MALAYSIA,37.5,24.38,F,23
+91,8599,1,0,1.0,0.0,26392,7495,C2B,Airlines,Online,Annual Silver Plan,1,365,SINGAPORE,291.75,72.94,M,31
+92,8672,1,0,1.0,0.0,29403,45872,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,10,ITALY,99.0,59.4,,35
+93,8785,1,0,1.0,0.0,26488,39875,C2B,Airlines,Online,Bronze Plan,1,89,SINGAPORE,33.5,8.38,M,22
+94,9095,1,0,1.0,0.0,12026,30192,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,30,UNITED KINGDOM,73.0,0.0,,36
+95,9276,1,0,1.0,0.0,20531,58985,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,14,MALAYSIA,19.8,11.88,,25
+96,9295,1,0,1.0,0.0,18357,48068,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,37,CZECH REPUBLIC,112.0,0.0,,36
+97,9473,1,0,1.0,0.0,44649,35877,C2B,Airlines,Online,Silver Plan,1,17,SINGAPORE,33.5,8.38,M,31
+98,9658,1,0,1.0,0.0,29412,42036,C2B,Airlines,Online,Bronze Plan,1,28,SINGAPORE,56.5,14.13,F,24
+99,9667,1,0,1.0,0.0,41515,17342,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,8,CHINA,69.0,0.0,,36
+100,9911,1,0,1.0,0.0,4079,60502,EPX,Travel Agency,Online,Cancellation Plan,1,38,THAILAND,10.0,0.0,,31
+101,9936,1,0,1.0,0.0,6528,56628,LWC,Travel Agency,Online,Annual Travel Protect Silver,1,368,CHINA,165.0,107.25,F,39
+102,9971,1,0,1.0,0.0,35921,25144,C2B,Airlines,Online,Bronze Plan,1,39,SINGAPORE,30.55,7.64,F,34
+103,10176,1,0,1.0,0.0,42056,34455,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,72,GERMANY,93.0,0.0,,36
+104,10210,1,0,1.0,0.0,49184,46293,C2B,Airlines,Online,Annual Silver Plan,1,381,SINGAPORE,193.2,48.3,F,29
+105,10311,1,0,1.0,0.0,39753,36287,C2B,Airlines,Online,Silver Plan,1,7,SINGAPORE,25.0,6.25,M,27
+106,10375,1,0,1.0,0.0,44943,41249,C2B,Airlines,Online,Silver Plan,1,28,SINGAPORE,88.5,22.13,F,30
+107,10523,1,0,1.0,0.0,24925,23995,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,49,AUSTRALIA,79.2,47.52,,36
+108,10598,1,0,1.0,0.0,44312,36959,C2B,Airlines,Online,Gold Plan,1,26,SINGAPORE,49.0,12.25,F,33
+109,10720,1,0,1.0,0.0,44677,40272,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,63,THAILAND,23.0,0.0,,36
+110,10868,1,0,1.0,0.0,25708,8549,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,53,THAILAND,24.0,0.0,,36
+111,10978,1,0,1.0,0.0,45866,29688,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,12,HONG KONG,29.0,0.0,,36
+112,11136,1,0,1.0,0.0,4135,14801,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,37,AUSTRALIA,19.8,11.88,,29
+113,11162,1,0,1.0,0.0,28295,36755,C2B,Airlines,Online,Bronze Plan,1,78,SINGAPORE,101.0,25.25,M,36
+114,11180,1,0,1.0,0.0,2024,36227,LWC,Travel Agency,Online,Annual Travel Protect Gold,1,397,UNITED STATES,320.0,208.0,F,44
+115,11289,1,0,1.0,0.0,24403,51336,C2B,Airlines,Online,Silver Plan,1,4,SINGAPORE,29.0,7.25,M,40
+116,11303,1,0,1.0,0.0,1656,41419,C2B,Airlines,Online,Bronze Plan,1,13,SINGAPORE,21.0,5.25,F,28
+117,11637,1,0,1.0,0.0,25535,41250,C2B,Airlines,Online,Silver Plan,1,8,SINGAPORE,47.5,11.88,M,44
+118,11776,1,0,1.0,0.0,27553,49973,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,15,THAILAND,21.0,0.0,,36
+119,11786,1,0,1.0,0.0,29202,48224,C2B,Airlines,Online,Silver Plan,1,17,SINGAPORE,48.5,12.13,F,56
+120,11795,1,0,1.0,0.0,40167,47403,C2B,Airlines,Online,Silver Plan,1,70,SINGAPORE,39.0,9.75,F,36
+121,11832,1,0,1.0,0.0,22700,45312,C2B,Airlines,Online,Bronze Plan,1,40,SINGAPORE,99.0,24.75,M,46
+122,11904,1,0,1.0,0.0,39297,24582,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,38,AUSTRALIA,69.3,41.58,,40
+123,11906,1,0,1.0,0.0,18498,29830,C2B,Airlines,Online,Bronze Plan,1,17,SINGAPORE,29.5,7.38,F,51
+124,11935,1,0,1.0,0.0,30332,57916,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,128,"KOREA, REPUBLIC OF",-37.0,0.0,,36
+125,12024,1,0,1.0,0.0,28287,47354,SSI,Airlines,Online,Ticket Protector,1,28,SINGAPORE,9.13,2.56,,48
+126,12049,1,0,1.0,0.0,17254,48460,C2B,Airlines,Online,Annual Silver Plan,1,365,SINGAPORE,259.2,64.8,F,26
+127,12170,1,0,1.0,0.0,37799,55315,LWC,Travel Agency,Online,Annual Travel Protect Silver,1,373,UNITED STATES,229.8,149.37,M,37
+128,12288,1,0,1.0,0.0,33823,28788,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,36,SWITZERLAND,112.0,0.0,,36
+129,12315,1,0,1.0,0.0,24561,60679,EPX,Travel Agency,Online,2 way Comprehensive Plan,1,51,UNITED STATES,112.0,0.0,,45
+130,12403,1,0,1.0,0.0,39118,46519,C2B,Airlines,Online,Silver Plan,1,74,SINGAPORE,88.5,22.13,F,61
+131,12439,1,0,1.0,0.0,11284,30801,EPX,Travel Agency,Online,Cancellation Plan,1,55,UNITED STATES,80.0,0.0,,27
+132,12504,1,0,1.0,0.0,39554,9507,CWT,Travel Agency,Online,Rental Vehicle Excess Insurance,1,11,ITALY,59.4,35.64,,31

@@ -23,9 +23,15 @@ split = StratifiedShuffleSplit(n_splits=1,test_size=0.25,random_state=42)
 for train_index, test_index in split.split(df,df['Claim']):
     train_set = df.iloc[train_index]
     test_set = df.iloc[test_index]
+
+for train_index, val_index in split.split(df,df['Claim']):
+    train_set = df.iloc[train_index]
+    val_set = df.iloc[val_index]
 print('Splitting done.')
+
 
 print('Storing dataframes into csv')
 train_set.to_csv(os.path.join(RAW_DATA_PATH,'train_set.csv'))
 test_set.to_csv(os.path.join(RAW_DATA_PATH,'test_set.csv'))
+val_set.to_csv(os.path.join(RAW_DATA_PATH,'val_set.csv'))
 print('Procedure complete.')
